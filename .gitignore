@@ -12,9 +12,10 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+# Editor & Config directories
+.vscode/
+.claude/
+.playwright-mcp/
 .idea
 .DS_Store
 *.suo
@@ -22,3 +23,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Handoff documentation
+HANDOFF.md
