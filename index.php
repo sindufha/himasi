@@ -193,78 +193,40 @@
         </div>
 
         <div class="row g-4">
-            <!-- Article 1 -->
-            <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                <div class="card card-custom h-100 overflow-hidden">
-                    <div style="height: 200px; overflow: hidden; position: relative;">
-                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Kolaborasi-Internasional-ITM-Nganjuk-Gandeng-STIKES-RS-Baptis-Kediri-California-Baptist-University-Gelar-Edukasi-Personal-Hygiene.jpg" class="w-100 h-100 object-fit-cover" alt="Workshop Data Science">
-                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Akademik</span>
-                    </div>
-                    <div class="card-body p-4 d-flex flex-column gap-3">
-                        <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
-                            <i class="bi bi-calendar-event"></i>
-                            <span>10 Juni 2026</span>
+            <?php
+            $db_data = json_decode(file_get_contents('database.json'), true);
+            $latest_articles = array_slice($db_data['articles'], 0, 3);
+            
+            foreach ($latest_articles as $index => $art):
+            ?>
+                <!-- Article Node -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="<?php echo $index * 100; ?>">
+                    <div class="card card-custom h-100 overflow-hidden">
+                        <div style="height: 200px; overflow: hidden; position: relative;">
+                            <img src="<?php echo htmlspecialchars($art['image']); ?>" class="w-100 h-100 object-fit-cover" alt="<?php echo htmlspecialchars($art['title']); ?>">
+                            <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill"><?php echo htmlspecialchars($art['category']); ?></span>
                         </div>
-                        <h5 class="fw-bold card-title text-brand-primary lh-base">
-                            Kolaborasi Internasional! ITM Nganjuk Gandeng STIKES RS Baptis Kediri & California Baptist University Gelar Edukasi "Personal Hygiene"
-                        </h5>
-                        <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
-                            Dalam upaya mewujudkan lingkungan kampus yang sehat dan produktif, Institut Teknologi Mojosari menggelar kegiatan edukasi kolaboratif berskala internasional.
-                        </p>
-                        <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
-                            Selengkapnya <i class="bi bi-chevron-right"></i>
-                        </a>
+                        <div class="card-body p-4 d-flex flex-column gap-3">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
+                                <i class="bi bi-calendar-event"></i>
+                                <span><?php echo htmlspecialchars($art['date']); ?></span>
+                            </div>
+                            <h5 class="fw-bold card-title text-brand-primary lh-base">
+                                <?php echo htmlspecialchars($art['title']); ?>
+                            </h5>
+                            <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
+                                <?php echo htmlspecialchars($art['excerpt']); ?>
+                            </p>
+                            <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
+                                Selengkapnya <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Article 2 -->
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="card card-custom h-100 overflow-hidden">
-                    <div style="height: 200px; overflow: hidden; position: relative;">
-                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/01/Itm-nganjuk-gandeng-IPM-dan-STIEKMA.jpg" class="w-100 h-100 object-fit-cover" alt="TechFest">
-                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Kerjasama</span>
-                    </div>
-                    <div class="card-body p-4 d-flex flex-column gap-3">
-                        <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
-                            <i class="bi bi-calendar-event"></i>
-                            <span>14 Januari 2026</span>
-                        </div>
-                        <h5 class="fw-bold card-title text-brand-primary lh-base">
-                            Perkuat Sinergi Lintas Disiplin, Institut Teknologi Mojosari Gandeng IPM dan STIEKMA dalam Kerjasama Tri Dharma
-                        </h5>
-                        <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
-                            Institut Teknologi Mojosari (ITM) Nganjuk menerima kunjungan istimewa dalam rangka penandatanganan Memorandum of Understanding (MoU) kerjasama Tri Dharma.
-                        </p>
-                        <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
-                            Selengkapnya <i class="bi bi-chevron-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Article 3 -->
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card card-custom h-100 overflow-hidden">
-                    <div style="height: 200px; overflow: hidden; position: relative;">
-                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2025/08/IMG_20250829_161945-scaled.jpg" class="w-100 h-100 object-fit-cover" alt="Kunjungan Industri">
-                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">KKN</span>
-                    </div>
-                    <div class="card-body p-4 d-flex flex-column gap-3">
-                        <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
-                            <i class="bi bi-calendar-event"></i>
-                            <span>29 Agustus 2025</span>
-                        </div>
-                        <h5 class="fw-bold card-title text-brand-primary lh-base">
-                            Penuh Haru, Camat Rejoso Sebut KKN Institut Teknologi Mojosari 2025 Terbaik dalam Pengemasan Program
-                        </h5>
-                        <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
-                            Apresiasi mendalam mewarnai acara penutupan Kuliah Kerja Nyata (KKN) Mahasiswa IT Mojosari karena dinilai sukses mengemas program kerja pemberdayaan.
-                        </p>
-                        <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
-                            Selengkapnya <i class="bi bi-chevron-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
         </div>
     </div>
 </section>

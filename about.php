@@ -136,24 +136,29 @@
             </p>
         </div>
 
+        <?php
+        $db_data = json_decode(file_get_contents('database.json'), true);
+        $st = $db_data['structure'];
+        ?>
+
         <div class="d-flex flex-column align-items-center gap-5">
             <!-- Top Executives (Row 1) -->
             <div class="row g-4 justify-content-center w-100" style="max-width: 800px;">
                 <div class="col-sm-6" data-aos="fade-up">
                     <div class="card card-custom overflow-hidden text-center h-100">
-                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80" alt="Rizky Pratama" class="w-100 object-fit-cover" style="height: 255px;">
+                        <img src="<?php echo htmlspecialchars($st['ketua']['image']); ?>" alt="<?php echo htmlspecialchars($st['ketua']['name']); ?>" class="w-100 object-fit-cover" style="height: 255px;">
                         <div class="card-body p-4">
-                            <h5 class="fw-bold mb-1">Rizky Pratama</h5>
-                            <span class="text-brand-orange fw-bold text-uppercase fs-7">Ketua Umum</span>
+                            <h5 class="fw-bold mb-1"><?php echo htmlspecialchars($st['ketua']['name']); ?></h5>
+                            <span class="text-brand-orange fw-bold text-uppercase fs-7"><?php echo htmlspecialchars($st['ketua']['role']); ?></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card card-custom overflow-hidden text-center h-100">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80" alt="Dian Lestari" class="w-100 object-fit-cover" style="height: 255px;">
+                        <img src="<?php echo htmlspecialchars($st['wakil']['image']); ?>" alt="<?php echo htmlspecialchars($st['wakil']['name']); ?>" class="w-100 object-fit-cover" style="height: 255px;">
                         <div class="card-body p-4">
-                            <h5 class="fw-bold mb-1">Dian Lestari</h5>
-                            <span class="text-brand-orange fw-bold text-uppercase fs-7">Wakil Ketua Umum</span>
+                            <h5 class="fw-bold mb-1"><?php echo htmlspecialchars($st['wakil']['name']); ?></h5>
+                            <span class="text-brand-orange fw-bold text-uppercase fs-7"><?php echo htmlspecialchars($st['wakil']['role']); ?></span>
                         </div>
                     </div>
                 </div>
@@ -163,19 +168,19 @@
             <div class="row g-4 justify-content-center w-100" style="max-width: 800px;">
                 <div class="col-sm-6" data-aos="fade-up">
                     <div class="card card-custom overflow-hidden text-center h-100">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80" alt="Aulia Rahma" class="w-100 object-fit-cover" style="height: 255px;">
+                        <img src="<?php echo htmlspecialchars($st['sekretaris']['image']); ?>" alt="<?php echo htmlspecialchars($st['sekretaris']['name']); ?>" class="w-100 object-fit-cover" style="height: 255px;">
                         <div class="card-body p-4">
-                            <h5 class="fw-bold mb-1">Aulia Rahma</h5>
-                            <span class="text-secondary fw-bold text-uppercase fs-7">Sekretaris Umum</span>
+                            <h5 class="fw-bold mb-1"><?php echo htmlspecialchars($st['sekretaris']['name']); ?></h5>
+                            <span class="text-secondary fw-bold text-uppercase fs-7"><?php echo htmlspecialchars($st['sekretaris']['role']); ?></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card card-custom overflow-hidden text-center h-100">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80" alt="Budi Santoso" class="w-100 object-fit-cover" style="height: 255px;">
+                        <img src="<?php echo htmlspecialchars($st['bendahara']['image']); ?>" alt="<?php echo htmlspecialchars($st['bendahara']['name']); ?>" class="w-100 object-fit-cover" style="height: 255px;">
                         <div class="card-body p-4">
-                            <h5 class="fw-bold mb-1">Budi Santoso</h5>
-                            <span class="text-secondary fw-bold text-uppercase fs-7">Bendahara Umum</span>
+                            <h5 class="fw-bold mb-1"><?php echo htmlspecialchars($st['bendahara']['name']); ?></h5>
+                            <span class="text-secondary fw-bold text-uppercase fs-7"><?php echo htmlspecialchars($st['bendahara']['role']); ?></span>
                         </div>
                     </div>
                 </div>
@@ -190,37 +195,37 @@
                 <div class="row g-4">
                     <div class="col-sm-6 col-lg-3" data-aos="fade-up">
                         <div class="card card-custom overflow-hidden text-center h-100">
-                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80" alt="Fajar Hidayat" class="w-100 object-fit-cover" style="height: 220px;">
+                            <img src="<?php echo htmlspecialchars($st['div1']['image']); ?>" alt="<?php echo htmlspecialchars($st['div1']['name']); ?>" class="w-100 object-fit-cover" style="height: 220px;">
                             <div class="card-body p-3">
-                                <h6 class="fw-bold mb-1">Fajar Hidayat</h6>
-                                <span class="text-muted text-uppercase" style="font-size: 11px;">Kabid Pendidikan & Riset</span>
+                                <h6 class="fw-bold mb-1"><?php echo htmlspecialchars($st['div1']['name']); ?></h6>
+                                <span class="text-muted text-uppercase" style="font-size: 11px;"><?php echo htmlspecialchars($st['div1']['role']); ?></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                         <div class="card card-custom overflow-hidden text-center h-100">
-                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80" alt="Siti Aminah" class="w-100 object-fit-cover" style="height: 220px;">
+                            <img src="<?php echo htmlspecialchars($st['div2']['image']); ?>" alt="<?php echo htmlspecialchars($st['div2']['name']); ?>" class="w-100 object-fit-cover" style="height: 220px;">
                             <div class="card-body p-3">
-                                <h6 class="fw-bold mb-1">Siti Aminah</h6>
-                                <span class="text-muted text-uppercase" style="font-size: 11px;">Kabid Hubungan Masyarakat</span>
+                                <h6 class="fw-bold mb-1"><?php echo htmlspecialchars($st['div2']['name']); ?></h6>
+                                <span class="text-muted text-uppercase" style="font-size: 11px;"><?php echo htmlspecialchars($st['div2']['role']); ?></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                         <div class="card card-custom overflow-hidden text-center h-100">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80" alt="Aditya Nugraha" class="w-100 object-fit-cover" style="height: 220px;">
+                            <img src="<?php echo htmlspecialchars($st['div3']['image']); ?>" alt="<?php echo htmlspecialchars($st['div3']['name']); ?>" class="w-100 object-fit-cover" style="height: 220px;">
                             <div class="card-body p-3">
-                                <h6 class="fw-bold mb-1">Aditya Nugraha</h6>
-                                <span class="text-muted text-uppercase" style="font-size: 11px;">Kabid Minat & Bakat</span>
+                                <h6 class="fw-bold mb-1"><?php echo htmlspecialchars($st['div3']['name']); ?></h6>
+                                <span class="text-muted text-uppercase" style="font-size: 11px;"><?php echo htmlspecialchars($st['div3']['role']); ?></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card card-custom overflow-hidden text-center h-100">
-                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80" alt="Nabila Putri" class="w-100 object-fit-cover" style="height: 220px;">
+                            <img src="<?php echo htmlspecialchars($st['div4']['image']); ?>" alt="<?php echo htmlspecialchars($st['div4']['name']); ?>" class="w-100 object-fit-cover" style="height: 220px;">
                             <div class="card-body p-3">
-                                <h6 class="fw-bold mb-1">Nabila Putri</h6>
-                                <span class="text-muted text-uppercase" style="font-size: 11px;">Kabid Komunikasi & Informasi</span>
+                                <h6 class="fw-bold mb-1"><?php echo htmlspecialchars($st['div4']['name']); ?></h6>
+                                <span class="text-muted text-uppercase" style="font-size: 11px;"><?php echo htmlspecialchars($st['div4']['role']); ?></span>
                             </div>
                         </div>
                     </div>

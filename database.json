@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "username": "admin",
+    "password_hash": "$2y$10$Ik3l0LZ7HDYlvyW.7lbq4uEwCn/c5idIJKn2MiRpNkOmOHfpCDumi"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "Kolaborasi Internasional! ITM Nganjuk Gandeng STIKES RS Baptis Kediri & California Baptist University Gelar Edukasi \"Personal Hygiene\"",
+      "date": "10 Juni 2026",
+      "excerpt": "Dalam upaya mewujudkan lingkungan kampus yang sehat dan produktif, Institut Teknologi Mojosari menggelar kegiatan edukasi kolaboratif berskala internasional.",
+      "category": "Akademik",
+      "image": "https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Kolaborasi-Internasional-ITM-Nganjuk-Gandeng-STIKES-RS-Baptis-Kediri-California-Baptist-University-Gelar-Edukasi-Personal-Hygiene.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Perkuat Sinergi Lintas Disiplin, Institut Teknologi Mojosari Gandeng IPM dan STIEKMA dalam Kerjasama Tri Dharma",
+      "date": "14 Januari 2026",
+      "excerpt": "Institut Teknologi Mojosari (ITM) Nganjuk menerima kunjungan istimewa dalam rangka penandatanganan Memorandum of Understanding (MoU) kerjasama Tri Dharma.",
+      "category": "Organisasi",
+      "image": "https://itmnganjuk.ac.id/wp-content/uploads/2026/01/Itm-nganjuk-gandeng-IPM-dan-STIEKMA-768x531.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Penuh Haru, Camat Rejoso Sebut KKN Institut Teknologi Mojosari 2025 Terbaik dalam Pengemasan Program",
+      "date": "29 Agustus 2025",
+      "excerpt": "Apresiasi mendalam mewarnai acara penutupan Kuliah Kerja Nyata (KKN) Mahasiswa IT Mojosari karena dinilai sukses mengemas program kerja pemberdayaan.",
+      "category": "Kunjungan",
+      "image": "https://itmnganjuk.ac.id/wp-content/uploads/2025/08/IMG_20250829_161945-scaled.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pendaftaran Seleksi Mandiri PTS Jalur Beasiswa KIP-K di ITM Nganjuk Resmi Dibuka",
+      "date": "17 Juni 2026",
+      "excerpt": "Kabar gembira bagi calon mahasiswa baru! Jalur pendaftaran Seleksi Mandiri PTS melalui Beasiswa Kartu Indonesia Pintar Kuliah (KIP-K) resmi dibuka.",
+      "category": "Organisasi",
+      "image": "https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Pendaftaran-Seleksi-Mandiri-PTS-Jalur-Beasiswa-KIP-K-di-ITM-Nganjuk-Resmi-Dibuka-768x961.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Perkuat Tata Kelola Mutu Kampus, Institut Teknologi Mojosari Lakukan Benchmarking ke BPM Universitas Kristen Petra",
+      "date": "11 Februari 2026",
+      "excerpt": "ITM melaksanakan kunjungan studi banding (benchmarking) ke Badan Penjaminan Mutu (BPM) Universitas Kristen Petra di Surabaya guna meningkatkan standar mutu pendidikan.",
+      "category": "Organisasi",
+      "image": "https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Benchmarking-ke-BPM-Universitas-Kristen-Petra-768x432.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Bukan Sekadar Menghitung Uang, Mengenal \"Akuntansi Bisnis Digital\" di Institut Teknologi Mojosari",
+      "date": "04 Februari 2026",
+      "excerpt": "Akuntansi Bisnis Digital hadir sebagai gabungan antara ilmu Akuntansi Keuangan, Teknologi Informasi, dan Manajemen Bisnis Modern untuk menjawab kebutuhan masa depan.",
+      "category": "Akademik",
+      "image": "https://itmnganjuk.ac.id/wp-content/uploads/2026/02/Akuntansi-bisnis-digital-768x514.jpg"
+    }
+  ],
+  "structure": {
+    "ketua": {
+      "name": "Rizky Pratama",
+      "role": "Ketua Umum",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80"
+    },
+    "wakil": {
+      "name": "Dian Lestari",
+      "role": "Wakil Ketua Umum",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80"
+    },
+    "sekretaris": {
+      "name": "Aulia Rahma",
+      "role": "Sekretaris Umum",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80"
+    },
+    "bendahara": {
+      "name": "Budi Santoso",
+      "role": "Bendahara Umum",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+    },
+    "div1": {
+      "name": "Fajar Hidayat",
+      "role": "Pendidikan & Riset",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+    },
+    "div2": {
+      "name": "Siti Aminah",
+      "role": "Hubungan Masyarakat",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
+    },
+    "div3": {
+      "name": "Aditya Nugraha",
+      "role": "Minat & Bakat",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+    },
+    "div4": {
+      "name": "Nabila Putri",
+      "role": "Komunikasi & Informasi",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80"
+    }
+  }
+}

@@ -18,189 +18,270 @@
 </section>
 
 <!-- Tree Structure Section -->
-<section class="py-5 bg-white">
-    <div class="container px-4 py-5">
+<section class="py-5 bg-white overflow-auto">
+    <div class="container py-5" style="min-width: 1050px;">
         <div class="text-center mb-5" data-aos="fade-up">
             <span class="text-brand-orange fw-bold text-uppercase d-block mb-2" style="font-size: 14px; letter-spacing: 0.05em;">Bagan Kepengurusan</span>
             <h2 class="display-6 fw-bold text-brand-primary">Kabinet Sinergi Inovasi</h2>
             <div style="width: 80px; height: 6px; background: linear-gradient(to right, #002b5b, #0f345f);" class="rounded-pill mx-auto mt-3"></div>
         </div>
 
-        <!-- Visual Hierarchy Tree -->
-        <div class="d-flex flex-column align-items-center justify-content-center my-5 position-relative">
-            
-            <!-- LEVEL 1: KETUA UMUM -->
-            <div class="d-flex flex-column align-items-center position-relative mb-4" data-aos="zoom-in">
-                <div class="card card-custom overflow-hidden text-center shadow" style="width: 260px;">
-                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80" alt="Rizky Pratama" class="w-100 object-fit-cover" style="height: 200px;">
-                    <div class="card-body p-3 bg-brand-primary text-white border-top border-secondary border-opacity-10">
-                        <h6 class="fw-bold mb-1">Rizky Pratama</h6>
-                        <span class="text-brand-orange fw-bold text-uppercase" style="font-size: 11px; letter-spacing: 0.05em;">Ketua Umum</span>
-                    </div>
-                </div>
-                <!-- Connector Line Down -->
-                <div class="tree-line-v"></div>
-            </div>
+        <?php
+        $db_data = json_decode(file_get_contents('database.json'), true);
+        $st = $db_data['structure'];
+        ?>
 
-            <!-- LEVEL 2: WAKIL KETUA UMUM -->
-            <div class="d-flex flex-column align-items-center position-relative mb-4" data-aos="zoom-in" data-aos-delay="100">
-                <div class="card card-custom overflow-hidden text-center shadow" style="width: 260px;">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80" alt="Dian Lestari" class="w-100 object-fit-cover" style="height: 200px;">
-                    <div class="card-body p-3 bg-brand-primary text-white border-top border-secondary border-opacity-10">
-                        <h6 class="fw-bold mb-1">Dian Lestari</h6>
-                        <span class="text-brand-orange fw-bold text-uppercase" style="font-size: 11px; letter-spacing: 0.05em;">Wakil Ketua Umum</span>
-                    </div>
-                </div>
-                <!-- Connector Line Down -->
-                <div class="tree-line-v"></div>
-            </div>
-
-            <!-- Horizontal Connector Line Splitter for Level 3 -->
-            <div class="tree-line-h-wrapper d-flex align-items-center justify-content-center w-100 position-relative mb-4" style="max-width: 600px;">
-                <div class="tree-line-h-left"></div>
-                <div class="tree-line-h-right"></div>
-            </div>
-
-            <!-- LEVEL 3: SEKRETARIS & BENDAHARA (Side by Side) -->
-            <div class="row g-5 justify-content-center w-100 mb-4" style="max-width: 800px;">
-                <!-- Sekretaris -->
-                <div class="col-sm-6 d-flex flex-column align-items-center position-relative" data-aos="fade-right" data-aos-delay="200">
-                    <div class="card card-custom overflow-hidden text-center shadow" style="width: 250px;">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80" alt="Aulia Rahma" class="w-100 object-fit-cover" style="height: 190px;">
-                        <div class="card-body p-3 bg-light text-brand-primary border-top">
-                            <h6 class="fw-bold mb-1 text-brand-primary">Aulia Rahma</h6>
-                            <span class="text-secondary fw-bold text-uppercase" style="font-size: 11px; letter-spacing: 0.05em;">Sekretaris Umum</span>
+        <!-- CSS Tree Diagram Organigram -->
+        <div class="organigram-tree d-flex justify-content-center py-4" data-aos="zoom-in">
+            <ul>
+                <li>
+                    <!-- Level 1: Ketua Umum -->
+                    <div class="member-node border-orange">
+                        <div class="avatar-wrap">
+                            <img src="<?php echo htmlspecialchars($st['ketua']['image']); ?>" alt="Ketua Umum">
+                        </div>
+                        <div class="member-info">
+                            <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['ketua']['name']); ?></h6>
+                            <span class="role text-brand-orange"><?php echo htmlspecialchars($st['ketua']['role']); ?></span>
                         </div>
                     </div>
-                    <!-- Small Vertical line for children layout -->
-                    <div class="tree-line-v-short"></div>
-                </div>
-                <!-- Bendahara -->
-                <div class="col-sm-6 d-flex flex-column align-items-center position-relative" data-aos="fade-left" data-aos-delay="200">
-                    <div class="card card-custom overflow-hidden text-center shadow" style="width: 250px;">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80" alt="Budi Santoso" class="w-100 object-fit-cover" style="height: 190px;">
-                        <div class="card-body p-3 bg-light text-brand-primary border-top">
-                            <h6 class="fw-bold mb-1 text-brand-primary">Budi Santoso</h6>
-                            <span class="text-secondary fw-bold text-uppercase" style="font-size: 11px; letter-spacing: 0.05em;">Bendahara Umum</span>
-                        </div>
-                    </div>
-                    <!-- Small Vertical line for children layout -->
-                    <div class="tree-line-v-short"></div>
-                </div>
-            </div>
-
-            <!-- Big Horizontal Connector Line Splitter for Level 4 (4 Divisions) -->
-            <div class="tree-line-h-wrapper d-flex align-items-center justify-content-center w-100 position-relative mb-4" style="max-width: 950px;">
-                <div class="tree-line-h-left-wide"></div>
-                <div class="tree-line-h-right-wide"></div>
-            </div>
-
-            <!-- LEVEL 4: 4 DIVISION HEADS (Side by Side) -->
-            <div class="row g-4 justify-content-center w-100">
-                <!-- Divisi 1 -->
-                <div class="col-sm-6 col-lg-3 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card card-custom overflow-hidden text-center shadow" style="width: 210px;">
-                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80" alt="Fajar Hidayat" class="w-100 object-fit-cover" style="height: 170px;">
-                        <div class="card-body p-3 bg-light text-brand-primary border-top">
-                            <h6 class="fw-bold mb-1" style="font-size: 14px;">Fajar Hidayat</h6>
-                            <span class="text-muted text-uppercase d-block" style="font-size: 10px; font-weight: 600;">Kabid Pendidikan & Riset</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Divisi 2 -->
-                <div class="col-sm-6 col-lg-3 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="400">
-                    <div class="card card-custom overflow-hidden text-center shadow" style="width: 210px;">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80" alt="Siti Aminah" class="w-100 object-fit-cover" style="height: 170px;">
-                        <div class="card-body p-3 bg-light text-brand-primary border-top">
-                            <h6 class="fw-bold mb-1" style="font-size: 14px;">Siti Aminah</h6>
-                            <span class="text-muted text-uppercase d-block" style="font-size: 10px; font-weight: 600;">Kabid Humas</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Divisi 3 -->
-                <div class="col-sm-6 col-lg-3 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="500">
-                    <div class="card card-custom overflow-hidden text-center shadow" style="width: 210px;">
-                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80" alt="Aditya Nugraha" class="w-100 object-fit-cover" style="height: 170px;">
-                        <div class="card-body p-3 bg-light text-brand-primary border-top">
-                            <h6 class="fw-bold mb-1" style="font-size: 14px;">Aditya Nugraha</h6>
-                            <span class="text-muted text-uppercase d-block" style="font-size: 10px; font-weight: 600;">Kabid Minat & Bakat</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Divisi 4 -->
-                <div class="col-sm-6 col-lg-3 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="600">
-                    <div class="card card-custom overflow-hidden text-center shadow" style="width: 210px;">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80" alt="Nabila Putri" class="w-100 object-fit-cover" style="height: 170px;">
-                        <div class="card-body p-3 bg-light text-brand-primary border-top">
-                            <h6 class="fw-bold mb-1" style="font-size: 14px;">Nabila Putri</h6>
-                            <span class="text-muted text-uppercase d-block" style="font-size: 10px; font-weight: 600;">Kabid Kominfo</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+                    
+                    <ul>
+                        <li>
+                            <!-- Level 2: Wakil Ketua Umum -->
+                            <div class="member-node border-orange">
+                                <div class="avatar-wrap">
+                                    <img src="<?php echo htmlspecialchars($st['wakil']['image']); ?>" alt="Wakil Ketua Umum">
+                                </div>
+                                <div class="member-info">
+                                    <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['wakil']['name']); ?></h6>
+                                    <span class="role text-brand-orange"><?php echo htmlspecialchars($st['wakil']['role']); ?></span>
+                                </div>
+                            </div>
+                            
+                            <ul>
+                                <!-- Branch Left: Sekretaris -->
+                                <li>
+                                    <div class="member-node">
+                                        <div class="avatar-wrap">
+                                            <img src="<?php echo htmlspecialchars($st['sekretaris']['image']); ?>" alt="Sekretaris Umum">
+                                        </div>
+                                        <div class="member-info">
+                                            <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['sekretaris']['name']); ?></h6>
+                                            <span class="role text-secondary"><?php echo htmlspecialchars($st['sekretaris']['role']); ?></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <ul>
+                                        <!-- Divisi 1 -->
+                                        <li>
+                                            <div class="member-node div-node">
+                                                <div class="avatar-wrap">
+                                                    <img src="<?php echo htmlspecialchars($st['div1']['image']); ?>" alt="Divisi 1">
+                                                </div>
+                                                <div class="member-info">
+                                                    <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['div1']['name']); ?></h6>
+                                                    <span class="role text-muted"><?php echo htmlspecialchars($st['div1']['role']); ?></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Divisi 2 -->
+                                        <li>
+                                            <div class="member-node div-node">
+                                                <div class="avatar-wrap">
+                                                    <img src="<?php echo htmlspecialchars($st['div2']['image']); ?>" alt="Divisi 2">
+                                                </div>
+                                                <div class="member-info">
+                                                    <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['div2']['name']); ?></h6>
+                                                    <span class="role text-muted"><?php echo htmlspecialchars($st['div2']['role']); ?></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <!-- Branch Right: Bendahara -->
+                                <li>
+                                    <div class="member-node">
+                                        <div class="avatar-wrap">
+                                            <img src="<?php echo htmlspecialchars($st['bendahara']['image']); ?>" alt="Bendahara Umum">
+                                        </div>
+                                        <div class="member-info">
+                                            <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['bendahara']['name']); ?></h6>
+                                            <span class="role text-secondary"><?php echo htmlspecialchars($st['bendahara']['role']); ?></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <ul>
+                                        <!-- Divisi 3 -->
+                                        <li>
+                                            <div class="member-node div-node">
+                                                <div class="avatar-wrap">
+                                                    <img src="<?php echo htmlspecialchars($st['div3']['image']); ?>" alt="Divisi 3">
+                                                </div>
+                                                <div class="member-info">
+                                                    <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['div3']['name']); ?></h6>
+                                                    <span class="role text-muted"><?php echo htmlspecialchars($st['div3']['role']); ?></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Divisi 4 -->
+                                        <li>
+                                            <div class="member-node div-node">
+                                                <div class="avatar-wrap">
+                                                    <img src="<?php echo htmlspecialchars($st['div4']['image']); ?>" alt="Divisi 4">
+                                                </div>
+                                                <div class="member-info">
+                                                    <h6 class="fw-bold mb-0"><?php echo htmlspecialchars($st['div4']['name']); ?></h6>
+                                                    <span class="role text-muted"><?php echo htmlspecialchars($st['div4']['role']); ?></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
 
-<!-- Custom Styles for Connection Lines -->
+<!-- CSS Organigram Tree Structure Styles -->
 <style>
-    /* Vertical connecting lines */
-    .tree-line-v {
-        width: 2px;
-        height: 50px;
-        background-color: rgba(0, 43, 91, 0.25);
-        position: absolute;
-        bottom: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
+    .organigram-tree ul {
+        padding-top: 30px;
+        position: relative;
+        transition: all 0.5s;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-bottom: 0;
     }
-    .tree-line-v-short {
-        width: 2px;
-        height: 25px;
-        background-color: rgba(0, 43, 91, 0.25);
-        position: absolute;
-        bottom: -25px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
+    .organigram-tree li {
+        float: left;
+        text-align: center;
+        list-style-type: none;
+        position: relative;
+        padding: 30px 15px 0 15px;
+        transition: all 0.5s;
     }
     
-    /* Horizontal lines for level 3 */
-    .tree-line-h-left {
+    /* Gunakan pseudo-element ::before dan ::after untuk menggambar garis konektor */
+    .organigram-tree li::before, .organigram-tree li::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 50%;
+        border-top: 2px solid rgba(0, 43, 91, 0.2);
         width: 50%;
-        height: 2px;
-        background-color: rgba(0, 43, 91, 0.25);
-        position: absolute;
-        left: 25%;
-        top: 0;
+        height: 30px;
     }
-    .tree-line-h-right {
-        width: 50%;
-        height: 2px;
-        background-color: rgba(0, 43, 91, 0.25);
-        position: absolute;
-        right: 25%;
-        top: 0;
+    .organigram-tree li::after {
+        right: auto;
+        left: 50%;
+        border-left: 2px solid rgba(0, 43, 91, 0.2);
     }
-
-    /* Wide Horizontal lines for level 4 */
-    .tree-line-h-left-wide {
-        width: 75%;
-        height: 2px;
-        background-color: rgba(0, 43, 91, 0.25);
-        position: absolute;
-        left: 12.5%;
-        top: 0;
+    
+    /* Hilangkan konektor untuk elemen tunggal/ujung */
+    .organigram-tree li:only-child::after, .organigram-tree li:only-child::before {
+        display: none;
     }
-    .tree-line-h-right-wide {
-        width: 75%;
-        height: 2px;
-        background-color: rgba(0, 43, 91, 0.25);
+    .organigram-tree li:only-child {
+        padding-top: 0;
+    }
+    .organigram-tree li:first-child::before, .organigram-tree li:last-child::after {
+        border: 0 none;
+    }
+    .organigram-tree li:last-child::before {
+        border-right: 2px solid rgba(0, 43, 91, 0.2);
+        border-radius: 0 5px 0 0;
+    }
+    .organigram-tree li:first-child::after {
+        border-radius: 5px 0 0 0;
+    }
+    
+    /* Garis turun dari node parent */
+    .organigram-tree ul ul::before {
+        content: '';
         position: absolute;
-        right: 12.5%;
         top: 0;
+        left: 50%;
+        border-left: 2px solid rgba(0, 43, 91, 0.2);
+        width: 0;
+        height: 30px;
+    }
+    
+    /* Card Node Styling */
+    .member-node {
+        display: inline-flex;
+        align-items: center;
+        gap: 16px;
+        background-color: #ffffff;
+        border: 2px solid rgba(0, 43, 91, 0.1);
+        border-radius: 20px;
+        padding: 12px 24px;
+        text-decoration: none;
+        position: relative;
+        z-index: 10;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    }
+    .member-node:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 25px rgba(0, 43, 91, 0.1);
+        border-color: var(--brand-primary);
+    }
+    .member-node.border-orange {
+        border-color: rgba(234, 88, 12, 0.2);
+    }
+    .member-node.border-orange:hover {
+        border-color: var(--brand-orange);
+    }
+    .member-node.div-node {
+        padding: 10px 20px;
+    }
+    
+    /* Avatar wrap */
+    .avatar-wrap {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid #ffffff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        flex-shrink: 0;
+    }
+    .member-node.div-node .avatar-wrap {
+        width: 55px;
+        height: 55px;
+    }
+    .avatar-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* Text info */
+    .member-info {
+        text-align: left;
+    }
+    .member-info h6 {
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--brand-primary);
+    }
+    .member-node.div-node .member-info h6 {
+        font-size: 14px;
+    }
+    .member-info .role {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 3px;
+        letter-spacing: 0.03em;
     }
 </style>
 

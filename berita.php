@@ -21,56 +21,8 @@
 <?php
 $categories = ['Semua', 'Akademik', 'Kompetisi', 'Kunjungan', 'Organisasi'];
 
-$articles = [
-    [
-        'id' => 1,
-        'title' => 'Kolaborasi Internasional! ITM Nganjuk Gandeng STIKES RS Baptis Kediri & California Baptist University Gelar Edukasi "Personal Hygiene"',
-        'date' => '10 Juni 2026',
-        'excerpt' => 'Dalam upaya mewujudkan lingkungan kampus yang sehat dan produktif, Institut Teknologi Mojosari menggelar kegiatan edukasi kolaboratif berskala internasional.',
-        'category' => 'Akademik',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Kolaborasi-Internasional-ITM-Nganjuk-Gandeng-STIKES-RS-Baptis-Kediri-California-Baptist-University-Gelar-Edukasi-Personal-Hygiene.jpg'
-    ],
-    [
-        'id' => 2,
-        'title' => 'Perkuat Sinergi Lintas Disiplin, Institut Teknologi Mojosari Gandeng IPM dan STIEKMA dalam Kerjasama Tri Dharma',
-        'date' => '14 Januari 2026',
-        'excerpt' => 'Institut Teknologi Mojosari (ITM) Nganjuk menerima kunjungan istimewa dalam rangka penandatanganan Memorandum of Understanding (MoU) kerjasama Tri Dharma.',
-        'category' => 'Organisasi',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/01/Itm-nganjuk-gandeng-IPM-dan-STIEKMA.jpg'
-    ],
-    [
-        'id' => 3,
-        'title' => 'Penuh Haru, Camat Rejoso Sebut KKN Institut Teknologi Mojosari 2025 Terbaik dalam Pengemasan Program',
-        'date' => '29 Agustus 2025',
-        'excerpt' => 'Apresiasi mendalam mewarnai acara penutupan Kuliah Kerja Nyata (KKN) Mahasiswa IT Mojosari karena dinilai sukses mengemas program kerja pemberdayaan.',
-        'category' => 'Kunjungan',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/08/IMG_20250829_161945-scaled.jpg'
-    ],
-    [
-        'id' => 4,
-        'title' => 'Pendaftaran Seleksi Mandiri PTS Jalur Beasiswa KIP-K di ITM Nganjuk Resmi Dibuka',
-        'date' => '17 Juni 2026',
-        'excerpt' => 'Kabar gembira bagi calon mahasiswa baru! Jalur pendaftaran Seleksi Mandiri PTS melalui Beasiswa Kartu Indonesia Pintar Kuliah (KIP-K) resmi dibuka.',
-        'category' => 'Organisasi',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Pendaftaran-Seleksi-Mandiri-PTS-Jalur-Beasiswa-KIP-K-di-ITM-Nganjuk-Resmi-Dibuka-768x961.jpeg'
-    ],
-    [
-        'id' => 5,
-        'title' => 'Perkuat Tata Kelola Mutu Kampus, Institut Teknologi Mojosari Lakukan Benchmarking ke BPM Universitas Kristen Petra',
-        'date' => '11 Februari 2026',
-        'excerpt' => 'ITM melaksanakan kunjungan studi banding (benchmarking) ke Badan Penjaminan Mutu (BPM) Universitas Kristen Petra di Surabaya guna meningkatkan standar mutu pendidikan.',
-        'category' => 'Organisasi',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Benchmarking-ke-BPM-Universitas-Kristen-Petra-768x432.jpg'
-    ],
-    [
-        'id' => 6,
-        'title' => 'Bukan Sekadar Menghitung Uang, Mengenal "Akuntansi Bisnis Digital" di Institut Teknologi Mojosari',
-        'date' => '04 Februari 2026',
-        'excerpt' => 'Akuntansi Bisnis Digital hadir sebagai gabungan antara ilmu Akuntansi Keuangan, Teknologi Informasi, dan Manajemen Bisnis Modern untuk menjawab kebutuhan masa depan.',
-        'category' => 'Akademik',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/02/Akuntansi-bisnis-digital-768x514.jpg'
-    ]
-];
+$db_data = json_decode(file_get_contents('database.json'), true);
+$articles = $db_data['articles'];
 ?>
 
 <section class="py-4 bg-light border-bottom">
