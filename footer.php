@@ -21,6 +21,7 @@
                     <ul class="list-unstyled d-flex flex-column gap-2">
                         <li><a href="index.php" class="text-light text-decoration-none hover-white">Home</a></li>
                         <li><a href="about.php" class="text-light text-decoration-none hover-white">Tentang Kami</a></li>
+                        <li><a href="struktur-organisasi.php" class="text-light text-decoration-none hover-white">Struktur Organisasi</a></li>
                         <li><a href="program-kerja.php" class="text-light text-decoration-none hover-white">Program Kerja</a></li>
                         <li><a href="berita.php" class="text-light text-decoration-none hover-white">Berita & Artikel</a></li>
                         <li><a href="kontak.php" class="text-light text-decoration-none hover-white">Kontak</a></li>
