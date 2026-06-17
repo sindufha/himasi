@@ -197,19 +197,19 @@
             <div class="col-md-6 col-lg-4" data-aos="fade-up">
                 <div class="card card-custom h-100 overflow-hidden">
                     <div style="height: 200px; overflow: hidden; position: relative;">
-                        <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&auto=format&fit=crop&q=60" class="w-100 h-100 object-fit-cover" alt="Workshop Data Science">
+                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Kolaborasi-Internasional-ITM-Nganjuk-Gandeng-STIKES-RS-Baptis-Kediri-California-Baptist-University-Gelar-Edukasi-Personal-Hygiene.jpg" class="w-100 h-100 object-fit-cover" alt="Workshop Data Science">
                         <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Akademik</span>
                     </div>
                     <div class="card-body p-4 d-flex flex-column gap-3">
                         <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
                             <i class="bi bi-calendar-event"></i>
-                            <span>15 Juni 2026</span>
+                            <span>10 Juni 2026</span>
                         </div>
                         <h5 class="fw-bold card-title text-brand-primary lh-base">
-                            Workshop Data Science & Analytics Bersama Praktisi Industri Terkemuka
+                            Kolaborasi Internasional! ITM Nganjuk Gandeng STIKES RS Baptis Kediri & California Baptist University Gelar Edukasi "Personal Hygiene"
                         </h5>
                         <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
-                            HIMASI ITM menyelenggarakan pelatihan intensif data science bagi mahasiswa untuk menjawab tantangan industri masa kini.
+                            Dalam upaya mewujudkan lingkungan kampus yang sehat dan produktif, Institut Teknologi Mojosari menggelar kegiatan edukasi kolaboratif berskala internasional.
                         </p>
                         <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
                             Selengkapnya <i class="bi bi-chevron-right"></i>
@@ -221,19 +221,19 @@
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="card card-custom h-100 overflow-hidden">
                     <div style="height: 200px; overflow: hidden; position: relative;">
-                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&auto=format&fit=crop&q=60" class="w-100 h-100 object-fit-cover" alt="TechFest">
-                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Kompetisi</span>
+                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/01/Itm-nganjuk-gandeng-IPM-dan-STIEKMA.jpg" class="w-100 h-100 object-fit-cover" alt="TechFest">
+                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Kerjasama</span>
                     </div>
                     <div class="card-body p-4 d-flex flex-column gap-3">
                         <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
                             <i class="bi bi-calendar-event"></i>
-                            <span>02 Juni 2026</span>
+                            <span>14 Januari 2026</span>
                         </div>
                         <h5 class="fw-bold card-title text-brand-primary lh-base">
-                            HIMASI ITM Gelar Lomba Pemrograman Web Nasional Mojosari TechFest 2026
+                            Perkuat Sinergi Lintas Disiplin, Institut Teknologi Mojosari Gandeng IPM dan STIEKMA dalam Kerjasama Tri Dharma
                         </h5>
                         <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
-                            Kompetisi web development berskala nasional ini diikuti oleh puluhan tim dari berbagai perguruan tinggi di Indonesia.
+                            Institut Teknologi Mojosari (ITM) Nganjuk menerima kunjungan istimewa dalam rangka penandatanganan Memorandum of Understanding (MoU) kerjasama Tri Dharma.
                         </p>
                         <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
                             Selengkapnya <i class="bi bi-chevron-right"></i>
@@ -245,19 +245,19 @@
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="card card-custom h-100 overflow-hidden">
                     <div style="height: 200px; overflow: hidden; position: relative;">
-                        <img src="https://images.unsplash.com/photo-1542744094-3a31f103e35f?w=600&auto=format&fit=crop&q=60" class="w-100 h-100 object-fit-cover" alt="Kunjungan Industri">
-                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">Kunjungan</span>
+                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2025/08/IMG_20250829_161945-scaled.jpg" class="w-100 h-100 object-fit-cover" alt="Kunjungan Industri">
+                        <span class="badge bg-brand-primary position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill">KKN</span>
                     </div>
                     <div class="card-body p-4 d-flex flex-column gap-3">
                         <div class="d-flex align-items-center gap-2 text-muted fs-7" style="font-weight: 600;">
                             <i class="bi bi-calendar-event"></i>
-                            <span>20 Mei 2026</span>
+                            <span>29 Agustus 2025</span>
                         </div>
                         <h5 class="fw-bold card-title text-brand-primary lh-base">
-                            Kunjungan Industri Mahasiswa Sistem Informasi ke Unicorn Tech Jakarta
+                            Penuh Haru, Camat Rejoso Sebut KKN Institut Teknologi Mojosari 2025 Terbaik dalam Pengemasan Program
                         </h5>
                         <p class="text-brand-gray card-text flex-grow-1" style="font-size: 14px; line-height: 1.6;">
-                            Melihat langsung kultur kerja software engineer dan system analyst profesional di salah satu tech startup terbesar.
+                            Apresiasi mendalam mewarnai acara penutupan Kuliah Kerja Nyata (KKN) Mahasiswa IT Mojosari karena dinilai sukses mengemas program kerja pemberdayaan.
                         </p>
                         <a href="berita.php" class="text-brand-orange fw-bold text-decoration-none d-inline-flex align-items-center gap-1">
                             Selengkapnya <i class="bi bi-chevron-right"></i>

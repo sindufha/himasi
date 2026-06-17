@@ -24,51 +24,51 @@ $categories = ['Semua', 'Akademik', 'Kompetisi', 'Kunjungan', 'Organisasi'];
 $articles = [
     [
         'id' => 1,
-        'title' => 'Workshop Data Science & Analytics Bersama Praktisi Industri Terkemuka',
-        'date' => '15 Juni 2026',
-        'excerpt' => 'HIMASI ITM menyelenggarakan pelatihan intensif data science bagi mahasiswa untuk menjawab tantangan industri analisis data di era modern.',
+        'title' => 'Kolaborasi Internasional! ITM Nganjuk Gandeng STIKES RS Baptis Kediri & California Baptist University Gelar Edukasi "Personal Hygiene"',
+        'date' => '10 Juni 2026',
+        'excerpt' => 'Dalam upaya mewujudkan lingkungan kampus yang sehat dan produktif, Institut Teknologi Mojosari menggelar kegiatan edukasi kolaboratif berskala internasional.',
         'category' => 'Akademik',
-        'image' => 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&auto=format&fit=crop&q=80'
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Kolaborasi-Internasional-ITM-Nganjuk-Gandeng-STIKES-RS-Baptis-Kediri-California-Baptist-University-Gelar-Edukasi-Personal-Hygiene.jpg'
     ],
     [
         'id' => 2,
-        'title' => 'HIMASI ITM Gelar Lomba Pemrograman Web Nasional Mojosari TechFest 2026',
-        'date' => '02 Juni 2026',
-        'excerpt' => 'Kompetisi web development berskala nasional ini diikuti oleh puluhan tim bertalenta dari berbagai perguruan tinggi di Indonesia.',
-        'category' => 'Kompetisi',
-        'image' => 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&auto=format&fit=crop&q=80'
+        'title' => 'Perkuat Sinergi Lintas Disiplin, Institut Teknologi Mojosari Gandeng IPM dan STIEKMA dalam Kerjasama Tri Dharma',
+        'date' => '14 Januari 2026',
+        'excerpt' => 'Institut Teknologi Mojosari (ITM) Nganjuk menerima kunjungan istimewa dalam rangka penandatanganan Memorandum of Understanding (MoU) kerjasama Tri Dharma.',
+        'category' => 'Organisasi',
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/01/Itm-nganjuk-gandeng-IPM-dan-STIEKMA.jpg'
     ],
     [
         'id' => 3,
-        'title' => 'Kunjungan Industri Mahasiswa Sistem Informasi ke Unicorn Tech Jakarta',
-        'date' => '20 Mei 2026',
-        'excerpt' => 'Melihat langsung kultur kerja software engineer, product manager, dan system analyst profesional di salah satu tech startup terbesar.',
+        'title' => 'Penuh Haru, Camat Rejoso Sebut KKN Institut Teknologi Mojosari 2025 Terbaik dalam Pengemasan Program',
+        'date' => '29 Agustus 2025',
+        'excerpt' => 'Apresiasi mendalam mewarnai acara penutupan Kuliah Kerja Nyata (KKN) Mahasiswa IT Mojosari karena dinilai sukses mengemas program kerja pemberdayaan.',
         'category' => 'Kunjungan',
-        'image' => 'https://images.unsplash.com/photo-1542744094-3a31f103e35f?w=600&auto=format&fit=crop&q=80'
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/08/IMG_20250829_161945-scaled.jpg'
     ],
     [
         'id' => 4,
-        'title' => 'PMB HIMASI 2026: Pendaftaran Anggota Baru Resmi Dibuka!',
-        'date' => '10 Mei 2026',
-        'excerpt' => 'Pendaftaran anggota baru Himpunan Mahasiswa Sistem Informasi telah dibuka. Persiapkan diri kalian untuk bergabung dalam kepengurusan.',
+        'title' => 'Pendaftaran Seleksi Mandiri PTS Jalur Beasiswa KIP-K di ITM Nganjuk Resmi Dibuka',
+        'date' => '17 Juni 2026',
+        'excerpt' => 'Pendaftaran KIP Kuliah untuk jalur beasiswa Seleksi Mandiri perguruan tinggi swasta di lingkungan ITM Nganjuk kini resmi dibuka.',
         'category' => 'Organisasi',
-        'image' => 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&auto=format&fit=crop&q=80'
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0007-scaled.jpg'
     ],
     [
         'id' => 5,
-        'title' => 'Sharing Session Alumni: Kunci Sukses Karir System Analyst di Perusahaan Global',
-        'date' => '28 April 2026',
-        'excerpt' => 'Ikuti bincang hangat alumni berbagi roadmap belajar, tips review resume, dan pengalaman kerja di perusahaan IT multinasional.',
+        'title' => 'Edaran Resmi Jadwal Seminar Hasil PKL/PLP Mahasiswa ITM Nganjuk 2026',
+        'date' => '16 April 2026',
+        'excerpt' => 'Informasi penting terkait jadwal pelaksanaan seminar hasil Praktek Kerja Lapangan (PKL) dan Pengenalan Lapangan Persekolahan (PLP).',
         'category' => 'Akademik',
-        'image' => 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&auto=format&fit=crop&q=80'
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0126-scaled.jpg'
     ],
     [
         'id' => 6,
-        'title' => 'Selamat! Mahasiswa SI ITM Meraih Juara 1 UI/UX Design Competition',
-        'date' => '15 April 2026',
-        'excerpt' => 'Selamat kepada tim mahasiswa Sistem Informasi IT Mojosari atas prestasi membanggakan meraih medali emas kompetisi UI/UX nasional.',
-        'category' => 'Kompetisi',
-        'image' => 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&auto=format&fit=crop&q=80'
+        'title' => 'Surat Edaran Perkuliahan Semester Genap Tahun Akademik 2025/2026',
+        'date' => '17 Februari 2026',
+        'excerpt' => 'Surat edaran resmi mengenai tata cara dan jadwal perkuliahan tatap muka maupun online untuk semester genap tahun ajaran ini.',
+        'category' => 'Organisasi',
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0007-scaled.jpg'
     ]
 ];
 ?>

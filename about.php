@@ -39,7 +39,7 @@
             
             <div class="col-lg-5" data-aos="fade-left">
                 <div class="card bg-light border-0 rounded-4 overflow-hidden shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop&q=80" alt="Kolaborasi Mahasiswa SI" class="card-img-top object-fit-cover" style="height: 320px;">
+                    <img src="https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0007-scaled.jpg" alt="Kolaborasi Mahasiswa SI" class="card-img-top object-fit-cover" style="height: 320px;">
                     <div class="card-body bg-brand-primary text-white p-4 text-center">
                         <h5 class="fw-bold mb-0">Kolaborasi & Inovasi Tanpa Batas</h5>
                     </div>
