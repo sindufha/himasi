@@ -104,10 +104,15 @@
                     </div>
                 </div>
 
-                <!-- Map Embed -->
-                <div class="card card-custom p-1 bg-light border-0 shadow-sm overflow-hidden" style="height: 250px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.293674681691!2d111.9167389147761!3d-7.604928194519967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784bfab7423e8f%3A0xc3cfc3246ebc60c8!2sInstitut%20Teknologi%20Mojosari!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-4"></iframe>
-                </div>
+                <!-- Map Link Image -->
+                <a href="https://maps.app.goo.gl/4fLwG2G6zL3RzTNL8" target="_blank" class="card card-custom p-0 bg-light border-0 shadow-sm overflow-hidden text-decoration-none position-relative d-block group" style="height: 250px;">
+                    <img src="https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0007-scaled.jpg" class="w-100 h-100 object-fit-cover transition-all" style="filter: brightness(0.75); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" alt="Kampus ITM">
+                    <div class="position-absolute inset-0 d-flex flex-column justify-content-center align-items-center text-center text-white p-3" style="background: rgba(0, 43, 91, 0.45); top: 0; left: 0; width: 100%; height: 100%;">
+                        <i class="bi bi-geo-alt-fill text-brand-orange display-6 mb-2 animate-bounce"></i>
+                        <span class="d-block fw-bold fs-5 mb-1 text-white">IT Mojosari Campus Map</span>
+                        <span class="text-white-50 btn btn-sm btn-brand-orange px-3 py-1.5 mt-2" style="font-size: 12px;"><i class="bi bi-map me-1"></i> Buka Google Maps</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
