@@ -104,14 +104,9 @@
                     </div>
                 </div>
 
-                <!-- Map Placeholder -->
-                <div class="card card-custom p-5 bg-light border-0 text-center shadow-sm position-relative overflow-hidden d-flex flex-column justify-content-center" style="height: 250px;">
-                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(#282c4b 1px, transparent 1px); background-size: 16px 16px; opacity: 0.05;"></div>
-                    <div class="position-relative z-2">
-                        <i class="bi bi-geo-alt-fill text-brand-orange display-5 mb-2 d-block spinner-grow-custom"></i>
-                        <span class="d-block fw-bold text-brand-primary mb-1">IT Mojosari Campus</span>
-                        <span class="text-muted fs-7">View Campus Location Map</span>
-                    </div>
+                <!-- Map Embed -->
+                <div class="card card-custom p-1 bg-light border-0 shadow-sm overflow-hidden" style="height: 250px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.293674681691!2d111.9167389147761!3d-7.604928194519967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784bfab7423e8f%3A0xc3cfc3246ebc60c8!2sInstitut%20Teknologi%20Mojosari!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-4"></iframe>
                 </div>
             </div>
         </div>
