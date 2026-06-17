@@ -29,7 +29,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             --brand-pinkEnd: #0f345f;
             --brand-orange: #ea580c;
             --brand-navy: #0f345f;
-            --brand-gray: #3a4f66;
+            --brand-gray: #2d3748; /* Digelapkan untuk kontras yang jauh lebih tinggi dan mudah dibaca */
             --brand-lightBg: #f9fafb;
         }
         body {
@@ -174,7 +174,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Nganjuk.png" alt="ITM Logo" style="height: 40px; width: auto;">
                 <div class="d-flex flex-column text-white">
                     <span class="fs-5 fw-bold mb-0">HIMASI</span>
-                    <span style="font-size: 11px; opacity: 0.8; letter-spacing: 0.02em;">Institut Teknologi Mojosari</span>
+                    <span style="font-size: 11px; opacity: 0.95; letter-spacing: 0.02em;">Institut Teknologi Mojosari</span>
                 </div>
             </a>
             <button class="navbar-toggler text-white border-white-10 bg-white-5 p-2 rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: 1px solid rgba(255,255,255,0.1);">

@@ -6,12 +6,12 @@
     <div class="container px-4 py-4 relative z-2" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb mb-3">
-                <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.php" class="text-light text-decoration-none">Home</a></li>
                 <li class="breadcrumb-item active text-brand-orange" aria-current="page">Program Kerja</li>
             </ol>
         </nav>
         <h1 class="display-5 fw-bold mb-3">Program Kerja HIMASI</h1>
-        <p class="lead text-white-50 mb-0 max-w-2xl" style="line-height: 1.6;">
+        <p class="lead text-light mb-0 max-w-2xl" style="line-height: 1.6;">
             Daftar kegiatan, seminar, kompetisi, dan program pemberdayaan mahasiswa yang diusung oleh divisi HIMASI ITM.
         </p>
     </div>
@@ -168,7 +168,7 @@
         <!-- No results container -->
         <div class="text-center py-5 d-none" id="noResultsMessage">
             <i class="bi bi-journal-x text-muted display-4 mb-3 d-block"></i>
-            <p class="text-muted fs-5">Tidak ada program kerja untuk divisi ini saat ini.</p>
+            <p class="text-secondary fs-5">Tidak ada program kerja untuk divisi ini saat ini.</p>
         </div>
 
     </div>

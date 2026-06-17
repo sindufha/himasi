@@ -6,12 +6,12 @@
     <div class="container px-4 py-4 relative z-2" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb mb-3">
-                <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.php" class="text-light text-decoration-none">Home</a></li>
                 <li class="breadcrumb-item active text-brand-orange" aria-current="page">Tentang Kami</li>
             </ol>
         </nav>
         <h1 class="display-5 fw-bold mb-3">Tentang HIMASI ITM</h1>
-        <p class="lead text-white-50 mb-0 max-w-2xl" style="line-height: 1.6;">
+        <p class="lead text-light mb-0 max-w-2xl" style="line-height: 1.6;">
             Mengenal lebih dekat Himpunan Mahasiswa Sistem Informasi Institut Teknologi Mojosari, visi, misi, dan susunan kepengurusan kami.
         </p>
     </div>

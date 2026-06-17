@@ -16,7 +16,7 @@
                     Kembangkan Potensi, Wujudkan Sinergi di <span class="text-brand-orange">Sistem Informasi</span>
                 </h1>
                 
-                <p class="lead text-white-50 mb-4 pe-lg-5" style="line-height: 1.6;">
+                <p class="lead text-light mb-4 pe-lg-5" style="line-height: 1.6;">
                     Himpunan Mahasiswa Sistem Informasi (HIMASI) Institut Teknologi Mojosari adalah wadah kolaboratif bagi mahasiswa SI untuk belajar, berkembang, dan menguasai teknologi masa depan.
                 </p>
                 
@@ -35,7 +35,7 @@
                     <div class="card-body text-center p-5 text-white">
                         <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Nganjuk.png" alt="ITM Logo" class="img-fluid mb-4" style="max-width: 120px;">
                         <h3 class="fw-bold mb-2">HIMASI ITM</h3>
-                        <p class="text-white-50 mb-4" style="font-size: 14px; line-height: 1.6;">
+                        <p class="text-light mb-4" style="font-size: 14px; line-height: 1.6;">
                             Integrasi Teknologi, Informasi, dan Manajemen untuk Inovasi Berkelanjutan.
                         </p>
                         <div class="d-inline-flex align-items-center gap-2 bg-white bg-opacity-5 border border-secondary border-opacity-25 px-3 py-2 rounded-pill" style="font-size: 12px; font-weight: 600;">
@@ -278,7 +278,7 @@
             <div class="position-relative z-2 max-w-3xl py-4">
                 <span class="text-brand-orange fw-bold text-uppercase d-block mb-3" style="font-size: 14px; letter-spacing: 0.05em;">Mari Bergabung</span>
                 <h2 class="display-5 fw-bold mb-4">Jadilah Bagian dari Keluarga Besar HIMASI ITM</h2>
-                <p class="lead text-white-50 mb-4 pe-lg-5" style="line-height: 1.6;">
+                <p class="lead text-light mb-4 pe-lg-5" style="line-height: 1.6;">
                     Dapatkan kesempatan belajar kepemimpinan, mengasah keterampilan teknis dalam proyek nyata, memperluas koneksi dengan profesional industri, serta berpartisipasi dalam event IT Mojosari.
                 </p>
                 <div class="d-flex flex-column flex-sm-row gap-3">

@@ -6,12 +6,12 @@
     <div class="container px-4 py-4 relative z-2" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb mb-3">
-                <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.php" class="text-light text-decoration-none">Home</a></li>
                 <li class="breadcrumb-item active text-brand-orange" aria-current="page">Berita & Artikel</li>
             </ol>
         </nav>
         <h1 class="display-5 fw-bold mb-3">Berita & Artikel</h1>
-        <p class="lead text-white-50 mb-0 max-w-2xl" style="line-height: 1.6;">
+        <p class="lead text-light mb-0 max-w-2xl" style="line-height: 1.6;">
             Temukan berita terkini seputar kegiatan kemahasiswaan, tips teknologi, prestasi, dan pengumuman resmi HIMASI ITM.
         </p>
     </div>
@@ -130,9 +130,9 @@ $articles = [
 
         <!-- No results container -->
         <div class="text-center py-5 d-none" id="noNewsResults">
-            <i class="bi bi-journal-x text-muted display-4 mb-3 d-block"></i>
+            <i class="bi bi-journal-x text-secondary display-4 mb-3 d-block"></i>
             <h4 class="fw-bold text-brand-primary">Artikel Tidak Ditemukan</h4>
-            <p class="text-muted">Coba cari dengan kata kunci lain atau pilih kategori berbeda.</p>
+            <p class="text-secondary">Coba cari dengan kata kunci lain atau pilih kategori berbeda.</p>
         </div>
     </div>
 </section>
