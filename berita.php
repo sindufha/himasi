@@ -50,25 +50,25 @@ $articles = [
         'id' => 4,
         'title' => 'Pendaftaran Seleksi Mandiri PTS Jalur Beasiswa KIP-K di ITM Nganjuk Resmi Dibuka',
         'date' => '17 Juni 2026',
-        'excerpt' => 'Pendaftaran KIP Kuliah untuk jalur beasiswa Seleksi Mandiri perguruan tinggi swasta di lingkungan ITM Nganjuk kini resmi dibuka.',
+        'excerpt' => 'Kabar gembira bagi calon mahasiswa baru! Jalur pendaftaran Seleksi Mandiri PTS melalui Beasiswa Kartu Indonesia Pintar Kuliah (KIP-K) resmi dibuka.',
         'category' => 'Organisasi',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0007-scaled.jpg'
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/06/Pendaftaran-Seleksi-Mandiri-PTS-Jalur-Beasiswa-KIP-K-di-ITM-Nganjuk-Resmi-Dibuka-768x961.jpeg'
     ],
     [
         'id' => 5,
-        'title' => 'Edaran Resmi Jadwal Seminar Hasil PKL/PLP Mahasiswa ITM Nganjuk 2026',
-        'date' => '16 April 2026',
-        'excerpt' => 'Informasi penting terkait jadwal pelaksanaan seminar hasil Praktek Kerja Lapangan (PKL) dan Pengenalan Lapangan Persekolahan (PLP).',
-        'category' => 'Akademik',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0126-scaled.jpg'
+        'title' => 'Perkuat Tata Kelola Mutu Kampus, Institut Teknologi Mojosari Lakukan Benchmarking ke BPM Universitas Kristen Petra',
+        'date' => '11 Februari 2026',
+        'excerpt' => 'ITM melaksanakan kunjungan studi banding (benchmarking) ke Badan Penjaminan Mutu (BPM) Universitas Kristen Petra di Surabaya guna meningkatkan standar mutu pendidikan.',
+        'category' => 'Organisasi',
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Benchmarking-ke-BPM-Universitas-Kristen-Petra-768x432.jpg'
     ],
     [
         'id' => 6,
-        'title' => 'Surat Edaran Perkuliahan Semester Genap Tahun Akademik 2025/2026',
-        'date' => '17 Februari 2026',
-        'excerpt' => 'Surat edaran resmi mengenai tata cara dan jadwal perkuliahan tatap muka maupun online untuk semester genap tahun ajaran ini.',
-        'category' => 'Organisasi',
-        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2025/02/MG_0007-scaled.jpg'
+        'title' => 'Bukan Sekadar Menghitung Uang, Mengenal "Akuntansi Bisnis Digital" di Institut Teknologi Mojosari',
+        'date' => '04 Februari 2026',
+        'excerpt' => 'Akuntansi Bisnis Digital hadir sebagai gabungan antara ilmu Akuntansi Keuangan, Teknologi Informasi, dan Manajemen Bisnis Modern untuk menjawab kebutuhan masa depan.',
+        'category' => 'Akademik',
+        'image' => 'https://itmnganjuk.ac.id/wp-content/uploads/2026/02/Akuntansi-bisnis-digital-768x514.jpg'
     ]
 ];
 ?>
