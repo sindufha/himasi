@@ -5,9 +5,9 @@
     <div class="container px-4 my-5">
         <div class="row g-5 align-items-center">
             <div class="col-lg-7 text-white" data-aos="fade-right" data-aos-duration="1000">
-                <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill mb-4" style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);">
-                    <span class="spinner-grow spinner-grow-sm text-brand-orange" role="status"></span>
-                    <span class="text-brand-orange fw-bold text-uppercase" style="font-size: 11px; letter-spacing: 0.05em;">
+                <div class="d-inline-flex align-items-center gap-2 px-3 py-2.5 rounded-pill mb-4 bg-brand-orange text-white shadow-sm" style="border: 1px solid rgba(255, 255, 255, 0.15);">
+                    <span class="spinner-grow spinner-grow-sm text-white" role="status" style="width: 10px; height: 10px;"></span>
+                    <span class="fw-bold text-uppercase" style="font-size: 11px; letter-spacing: 0.05em;">
                         Best Student Association - Institut Teknologi Mojosari 2026
                     </span>
                 </div>
@@ -38,8 +38,8 @@
                         <p class="text-light mb-4" style="font-size: 14px; line-height: 1.6;">
                             Integrasi Teknologi, Informasi, dan Manajemen untuk Inovasi Berkelanjutan.
                         </p>
-                        <div class="d-inline-flex align-items-center gap-2 bg-white bg-opacity-5 border border-secondary border-opacity-25 px-3 py-2 rounded-pill" style="font-size: 12px; font-weight: 600;">
-                            <span class="p-1 bg-success rounded-circle animate-pulse"></span>
+                        <div class="d-inline-flex align-items-center gap-2 bg-white text-brand-primary px-3 py-2 rounded-pill shadow-sm" style="font-size: 12px; font-weight: 700;">
+                            <span class="p-1 bg-success rounded-circle animate-pulse" style="width: 8px; height: 8px;"></span>
                             <span>Penerimaan Anggota Baru Dibuka</span>
                         </div>
                     </div>
