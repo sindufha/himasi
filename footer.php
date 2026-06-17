@@ -1,24 +1,37 @@
     <!-- Footer -->
-    <footer class="footer pt-5 pb-4 mt-5">
+    <footer class="footer pt-4 pb-3 mt-4">
         <div class="container px-4">
-            <!-- Top Section -->
+            <!-- Main Grid Section -->
             <div class="row g-4 pb-4 border-bottom border-secondary border-opacity-25">
-                <div class="col-lg-5">
-                    <a class="d-flex align-items-center gap-3 mb-3 text-decoration-none" href="index.php">
-                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Nganjuk.png" alt="ITM Logo" style="height: 40px; width: auto;">
+                <!-- Column 1: Brand & Socials -->
+                <div class="col-lg-4">
+                    <a class="d-flex align-items-center gap-3 mb-2 text-decoration-none" href="index.php">
+                        <img src="https://itmnganjuk.ac.id/wp-content/uploads/2026/02/ITM-Nganjuk.png" alt="ITM Logo" style="height: 35px; width: auto;">
                         <div class="d-flex flex-column text-white">
                             <span class="fs-5 fw-bold mb-0">HIMASI</span>
                             <span class="text-brand-orange fw-bold" style="font-size: 10px; letter-spacing: 0.1em;">IT Mojosari</span>
                         </div>
                     </a>
-                    <p class="text-light fs-6 pe-lg-5">
-                        Himpunan Mahasiswa Sistem Informasi Institut Teknologi Mojosari.
-                        Wadah pengembangan akademik, karakter, dan kreativitas mahasiswa Sistem Informasi.
+                    <p class="text-light fs-7 mb-3 pe-lg-3" style="line-height: 1.6;">
+                        Himpunan Mahasiswa Sistem Informasi Institut Teknologi Mojosari. Wadah pengembangan akademik, karakter, dan kreativitas mahasiswa.
                     </p>
+                    <div class="d-flex gap-2">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px; transition: all 0.3s ease; font-size: 12px;">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px; transition: all 0.3s ease; font-size: 12px;">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://itm.ac.id" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px; transition: all 0.3s ease; font-size: 12px;">
+                            <i class="bi bi-globe"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <h5 class="text-brand-orange fw-bold mb-3 text-uppercase" style="font-size: 14px; letter-spacing: 0.05em;">Navigasi</h5>
-                    <ul class="list-unstyled d-flex flex-column gap-2">
+
+                <!-- Column 2: Navigasi -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h6 class="text-brand-orange fw-bold mb-3 text-uppercase" style="font-size: 12px; letter-spacing: 0.05em;">Navigasi</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2" style="font-size: 13px;">
                         <li><a href="index.php" class="text-light text-decoration-none hover-white">Home</a></li>
                         <li><a href="about.php" class="text-light text-decoration-none hover-white">Tentang Kami</a></li>
                         <li><a href="struktur-organisasi.php" class="text-light text-decoration-none hover-white">Struktur Organisasi</a></li>
@@ -27,61 +40,47 @@
                         <li><a href="kontak.php" class="text-light text-decoration-none hover-white">Kontak</a></li>
                     </ul>
                 </div>
-                <div class="col-md-8 col-lg-4">
-                    <h5 class="text-brand-orange fw-bold mb-3 text-uppercase" style="font-size: 14px; letter-spacing: 0.05em;">Media Sosial</h5>
-                    <div class="d-flex gap-3">
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; transition: all 0.3s ease;">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; transition: all 0.3s ease;">
-                            <i class="bi bi-youtube"></i>
-                        </a>
-                        <a href="https://itm.ac.id" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; transition: all 0.3s ease;">
-                            <i class="bi bi-globe"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Middle Section -->
-            <div class="row g-4 py-4 border-bottom border-secondary border-opacity-25">
-                <div class="col-lg-5">
-                    <span class="text-brand-orange fw-bold text-uppercase d-block mb-3" style="font-size: 13px; letter-spacing: 0.05em;">Hubungi Kami</span>
-                    <div class="d-flex flex-column gap-2 text-light">
+                <!-- Column 3: Hubungi Kami -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <h6 class="text-brand-orange fw-bold mb-3 text-uppercase" style="font-size: 12px; letter-spacing: 0.05em;">Hubungi Kami</h6>
+                    <div class="d-flex flex-column gap-2 text-light" style="font-size: 13px; line-height: 1.5;">
                         <div class="d-flex align-items-center gap-2">
-                            <i class="bi bi-envelope-fill text-light"></i>
+                            <i class="bi bi-envelope-fill"></i>
                             <a href="mailto:himasi@itm.ac.id" class="text-light text-decoration-none">himasi@itm.ac.id</a>
                         </div>
                         <div class="d-flex align-items-center gap-2">
-                            <i class="bi bi-telephone-fill text-light"></i>
-                            <a href="tel:+628123456789" class="text-light text-decoration-none">+62 812-3456-789</a>
+                            <i class="bi bi-telephone-fill"></i>
+                            <a href="tel:+628123456789" class="text-light text-decoration-none">+62 812-789</a>
                         </div>
                         <div class="d-flex align-items-start gap-2">
-                            <i class="bi bi-geo-alt-fill text-light mt-1"></i>
+                            <i class="bi bi-geo-alt-fill mt-0.5"></i>
                             <p class="mb-0">
-                                Kampus Institut Teknologi Mojosari, Jl. Raya Mojosari No. 101, Mojokerto, Jawa Timur
+                                Kampus IT Mojosari, Jl. Raya Mojosari 101, Mojokerto
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <span class="text-brand-orange fw-bold text-uppercase d-block mb-3" style="font-size: 13px; letter-spacing: 0.05em;">Berlangganan Newsletter</span>
-                    <p class="text-light">
-                        Dapatkan info terbaru seputar kegiatan, webinar, dan info akademik dari HIMASI ITM langsung di email kamu.
+
+                <!-- Column 4: Newsletter -->
+                <div class="col-md-5 col-lg-3">
+                    <h6 class="text-brand-orange fw-bold mb-3 text-uppercase" style="font-size: 12px; letter-spacing: 0.05em;">Newsletter</h6>
+                    <p class="text-light mb-2" style="font-size: 13px; line-height: 1.5;">
+                        Berlangganan info webinar & info akademik terbaru.
                     </p>
-                    <form class="d-flex flex-column flex-sm-row gap-2 bg-white bg-opacity-10 p-2 rounded-4 border border-secondary border-opacity-25" onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan newsletter HIMASI!'); this.reset();">
-                        <input type="email" required placeholder="Alamat email kamu" class="form-control bg-transparent border-0 text-white shadow-none ps-3">
-                        <button type="submit" class="btn btn-brand-orange whitespace-nowrap">Langganan</button>
+                    <form class="d-flex bg-white bg-opacity-10 p-1.5 rounded-3 border border-secondary border-opacity-25" onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan newsletter HIMASI!'); this.reset();">
+                        <input type="email" required placeholder="Email kamu" class="form-control bg-transparent border-0 text-white shadow-none ps-2 py-1" style="font-size: 13px;">
+                        <button type="submit" class="btn btn-brand-orange py-1 px-3" style="font-size: 13px; border-radius: 6px;">OK</button>
                     </form>
                 </div>
             </div>
 
             <!-- Bottom Section -->
-            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3 pt-3 text-light fs-7">
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 pt-3 text-light fs-7" style="font-size: 12px;">
                 <p class="mb-0">© <?php echo date("Y"); ?> HIMASI ITM. All Rights Reserved.</p>
                 <div class="d-flex align-items-center gap-1">
                     <span>Made with</span>
-                    <i class="bi bi-heart-fill text-danger"></i>
+                    <i class="bi bi-heart-fill text-danger" style="font-size: 10px;"></i>
                     <span>by Divisi Kominfo HIMASI</span>
                 </div>
             </div>
@@ -96,9 +95,7 @@
         // Inisialisasi AOS untuk animasi scroll yang smooth seperti Framer Motion
         AOS.init({
             duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-            mirror: false
+            once: true
         });
 
         // Efek scroll navbar
